@@ -1,0 +1,44 @@
+body {
+    background-color: #2b0000; /* Dark red background */
+    color: #ff9999; /* Light red text for contrast */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+div {
+    align-content:center;
+}
+
+h1, h3 {
+    color: #ff6666; /* Bright red for headings */
+}
+
+input, button {
+    background-color: #000000; /* Slightly lighter dark red for inputs and buttons */
+    color: #ffffff; /* Light red text */
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #660000; /* Darker red on hover for buttons */
+    cursor: pointer;
+}
+
+input {
+    width: 100px;
+}
+
+#Ride, #Cvote, #KeyandConstruct {
+    background-color: #330000; /* Even darker red for result display */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+strong {
+    color: #ff4d4d; /* Highlight for strong text */
+}

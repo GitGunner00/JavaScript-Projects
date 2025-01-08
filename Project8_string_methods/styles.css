@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    font-size: 2em;
+    color: #4CAF50;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #2196F3;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+}
+
+h6 {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1em;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Buttons */
+button {
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Extra Space at Bottom */
+body > h1:last-of-type {
+    margin-top: 40px;
+    text-align: center;
+    color: #ddd;
+}
